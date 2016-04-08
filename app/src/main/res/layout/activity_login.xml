@@ -23,13 +23,15 @@
         android:id="@+id/login_form"
         android:background="#FFF"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical">
 
         <LinearLayout
             android:id="@+id/email_login_form"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_gravity="center_vertical">
 
             <ImageView
                 android:layout_width="wrap_content"
@@ -44,7 +46,7 @@
 
                 <AutoCompleteTextView
                     android:id="@+id/email"
-                    android:textSize="40px"
+                    android:textSize="30sp"
                     android:layout_width="match_parent"
                     android:layout_height="60dp"
                     android:hint="@string/prompt_email"
@@ -59,7 +61,7 @@
 
                 <EditText
                     android:id="@+id/password"
-                    android:textSize="40px"
+                    android:textSize="30sp"
                     android:layout_width="match_parent"
                     android:layout_height="60dp"
                     android:hint="@string/prompt_password"
