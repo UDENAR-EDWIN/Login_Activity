@@ -8,11 +8,13 @@
     <string name="action_sign_in">LOGIN IN</string>
     <string name="action_sign_in_short">Sign in</string>
     <string name="action_sign_up">Sign up</string>
-    <string name="error_invalid_email">This email address is invalid</string>
-    <string name="error_invalid_password">This password is too short</string>
-    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="create_acount">Create Acount</string>
+    <string name="conector">or</string>
+    <string name="error_invalid_email">Dirección de correo invalida</string>
+    <string name="error_invalid_password">La contraseña esta muy corta</string>
+    <string name="error_incorrect_password">La contraseña es incorrecta</string>
     <string name="error_field_required">This field is required</string>
-    <string name="permission_rationale">"Contacts permissions are needed for providing email
-        completions."
+    <string name="permission_rationale">"Se necesitan permisos de contactos para proporcionar terminaciones de correo electrónico."
     </string>
+    <string name="alert_not_found_email">"No existe una cuenta con ese Email"</string>
 </resources>

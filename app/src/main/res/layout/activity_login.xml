@@ -86,25 +86,25 @@
                 android:text="@string/action_sign_in"
                 android:background="#26474b"
                 android:textColor="#fff"
-                android:textSize="18dp"
+                android:textSize="18sp"
                 android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="or"
-                android:textSize="15dp"
+                android:text="@string/conector"
+                android:textSize="15sp"
                 android:id="@+id/textView"
                 android:layout_gravity="center_horizontal" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="18dp"
+                android:textSize="18sp"
                 android:gravity="center"
                 android:textColor="#232760"
-                android:text="Create Acount"
-                android:id="@+id/textView2"
+                android:text="@string/create_acount"
+                android:id="@+id/createAcount"
                 android:layout_gravity="center_horizontal" />
         </LinearLayout>
     </ScrollView>
